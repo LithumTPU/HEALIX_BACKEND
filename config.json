@@ -1,0 +1,25 @@
+{
+  "senderEmail": "ekanayakelithum2010@gmail.com",
+  "emailAppPassword": "vome tjcq dwpz yeag",
+  "primaryEmail": "ekanayakelithum2010@gmail.com",
+  "backupEmail": "ekanayakelithum2010@gmail.com",
+  "notificationTypes": [
+    "health_alerts",
+    "daily_summary",
+    "emergency_alerts",
+    "medication_reminders"
+  ],
+  "frequency": "immediate",
+  "subjectPrefix": "Healix Alert",
+  "senderName": "Healix Alert System",
+  "useDefaultThresholds": true,
+  "thresholds": {
+    "temperature": 38,
+    "heartRate": 120,
+    "spo2": 90,
+    "respiratoryRate": 24,
+    "systolicBP": 140,
+    "diastolicBP": 90,
+    "painScale": 7
+  }
+}
